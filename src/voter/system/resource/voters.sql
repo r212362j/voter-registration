@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2022 at 08:14 PM
+-- Generation Time: Mar 15, 2022 at 10:06 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.10
 
@@ -66,7 +66,8 @@ CREATE TABLE `voters` (
 
 INSERT INTO `voters` (`rec_id`, `first_name`, `surname`, `national_id`, `constituency`, `ward`, `dob`, `polling_station`, `address`, `sex`) VALUES
 (2, 'Tapiwa', 'Churu', '23-198914Z20', 'Harare', '12', '26-03-1999', 'Hatfield', 'Hatfield Harare', 'Female'),
-(3, 'Tinotenda', 'Moyo', '22-126734W67', 'Harare ', '15', '28-03-1997', 'Greencroft', 'Greencroft Harare', 'Male');
+(3, 'Tinotenda', 'Moyo', '22-126734W67', 'Harare ', '15', '28-03-1997', 'Greencroft', 'Greencroft Harare', 'Male'),
+(4, 'Chido', 'Moyo', '23-125689D56', 'Harare', '20', '28-03-1996', 'Tynwld North', 'Tynwld North Harae', 'Female');
 
 --
 -- Indexes for dumped tables
@@ -98,7 +99,7 @@ ALTER TABLE `admin_credentials`
 -- AUTO_INCREMENT for table `voters`
 --
 ALTER TABLE `voters`
-  MODIFY `rec_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `rec_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
